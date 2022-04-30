@@ -1,0 +1,39 @@
+body {
+  padding-top: 30px;
+  padding-left: 15px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9em;
+}
+
+a {
+  color: #000;
+  padding-bottom: 30px;
+}
+
+.nav-link {
+  color: #000
+}
+
+.navbar-brand {
+  color: #000
+}
+
+.header-logo {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.tagline {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#mobile-logo-image {
+  text-align: center;
+}
+
+/* Copyright message */
+.copyright {
+  font-size: .7rem
+}
