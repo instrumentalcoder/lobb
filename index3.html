@@ -256,18 +256,19 @@
           <!--------------------------------- Tipline Box ----------------------------------->
 
           <strong>Send news tips to LOBB</strong>
-          <div class="responsive-contact-box">
-            <!-- Do not change the code! -->
-            <a id="foxyform_embed_link_977847" href="http://www.foxyform.com/">foxyform</a>
-            <script type="text/javascript">
-              (function(d, t) {
-                var g = d.createElement(t),
-                  s = d.getElementsByTagName(t)[0];
-                g.src = "http://www.foxyform.com/js.php?id=977847&sec_hash=7a39ab6a46c&width=250px";
-                s.parentNode.insertBefore(g, s);
-              }(document, "script"));
-            </script>
-            <!-- Do not change the code! -->
+          <div class="container">
+            <form id="contact" action="mailto:ohhbeatmaker@gmail.com" method="post">
+              <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+              <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+            </form>
           </div>
 
           <hr>
