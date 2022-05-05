@@ -2,7 +2,7 @@ body {
   padding-top: 30px;
   padding-left: 15px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 a {
@@ -13,7 +13,6 @@ a {
 .nav-link {
   color: #000
 }
-
 
 .navbar-brand {
   color: #000
@@ -37,4 +36,12 @@ a {
 /* Copyright message */
 .copyright {
   font-size: .7rem
+}
+
+@media (max-width: 998px) {
+
+  body {
+    font-size: 1.2rem
+  }
+  
 }
